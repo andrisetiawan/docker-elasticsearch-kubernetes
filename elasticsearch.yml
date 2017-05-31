@@ -31,6 +31,9 @@ discovery:
   zen:
     minimum_master_nodes: ${NUMBER_OF_MASTERS}
 
+script.inline: true
+script.indexed: true
+
 index:
     number_of_shards: ${NUMBER_OF_SHARDS}
     number_of_replicas: ${NUMBER_OF_REPLICAS}
